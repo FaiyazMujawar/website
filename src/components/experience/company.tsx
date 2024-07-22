@@ -24,7 +24,7 @@ const Company = ({ company }: { company: CompanyProps }) => {
           {company.index}
         </div>
       </div>
-      <div className='border-[1px] border-gray-800 p-5 rounded-md w-full py-10'>
+      <div className='border-[1px] border-gray-800 p-5 rounded-md w-full py-10 px-6'>
         <div className='flex justify-between items-center'>
           <div className='flex items-center mb-2'>
             <span className='text-3xl mr-5'>{company.company}</span>
@@ -42,13 +42,15 @@ const Company = ({ company }: { company: CompanyProps }) => {
         </div>
         <h2 className='text-xl text-gray-400 mb-2'>{company.position}</h2>
         <p className='text-lg mb-2'>Key Responsibilities</p>
-        <ul style={{ listStyleType: 'circle', listStylePosition: 'inside' }}>
-          {company.summary.map((summary, index) => (
-            <li className='list-item text-lg' key={index}>
-              {summary}
-            </li>
-          ))}
-        </ul>
+        <div>
+          <ul style={{ listStyleType: 'circle', listStylePosition: 'inside' }}>
+            {company.summary.map((summary, index) => (
+              <li className='list-item text-lg' key={index}>
+                {summary}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

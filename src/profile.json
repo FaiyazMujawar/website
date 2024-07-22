@@ -32,12 +32,8 @@
     "projects": [
         {
             "name": "Banking Application API",
-            "description": "",
+            "description": "Developed a functional REST API for a demo banking application, following coding best practices and industry standards",
             "date": "",
-            "summary": [
-                "Developed a functional REST API for a demo banking application, following coding best practices and industry standards",
-                "Implemented user authentication & authorization using JWT and Spring Security"
-            ],
             "keywords": [
                 "Java",
                 "Spring Boot",
@@ -45,39 +41,32 @@
                 "PostgreSQL"
             ],
             "url": {
-                "label": "banking-demo",
+                "label": "Github/banking-demo",
                 "href": "https://github.com/FaiyazMujawar/spring-banking-demo"
             }
         },
         {
             "name": "Grievance System API",
-            "description": "",
+            "description": "Designed an anonymous grievance reporting and management approach that reduces 90% manual effort.",
             "date": "",
-            "summary": [
-                "Designed an anonymous grievance reporting and management approach that reduces 90% manual effort.",
-                "Architected a REST API that followed best practices and standard guidelines and deployed it on Azure.",
-                "Secured API through user authentication/authorization and RBAC using JWT"
-            ],
             "keywords": [
                 "Nodejs",
                 "Expressjs",
                 "MongoDb"
             ],
             "url": {
-                "label": "issue-tracker",
+                "label": "Github/issue-tracker",
                 "href": "https://github.com/FaiyazMujawar/issue-tracker/"
             }
         },
         {
             "name": "ClubSocial",
-            "description": "",
+            "description": "Created a social media website using Firebase & React, where users can post their ideas as messages, photos, and videos",
             "date": "",
-            "summary": [
-                "A social media website, where users can post their ideas as messages, photos, and videos",
-                "Used Firebase for media storage, user authentication, etc.",
-                "Tech Stack: React, Semantic UI, Firebase"
+            "keywords": [
+                "React.js",
+                "Firebase"
             ],
-            "keywords": [],
             "url": {
                 "label": "Github/clubsocial",
                 "href": "https://github.com/FaiyazMujawar/ClubSocial"

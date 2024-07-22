@@ -15,7 +15,7 @@ const Home = () => {
         <div className='text-2xl'>
           <code className='text-red-400'>${`{${basics.designation}}`}</code>
           <span className='text-gray-500'>
-            ,&nbsp; Based in {basics.location}.
+            ,&nbsp; based in {basics.location}.
           </span>
         </div>
         <div className='profiles mt-8'>

@@ -4,18 +4,20 @@ import Skill from './skill';
 
 const Skills = () => {
   return (
-    <div>
+    <div id='skills py-20'>
       <div>
-        <h1>Some of my personal works...</h1>
-        {projects.map((project, index) => (
-          <Project key={index} project={project} />
-        ))}
+        <h1 className='text-5xl'>Personal work..</h1>
+        <div className='grid grid-cols-2 gap-5 py-5'>
+          {projects.map((project, index) => (
+            <Project key={index} project={project} />
+          ))}
+        </div>
       </div>
-      <div>
+      <div className='py-20'>
         {/* This should be in tabs */}
-        <h1>My Skills</h1>
+        <h1 className='text-5xl'>My Skills</h1>
         {/* This should be grid */}
-        <div>
+        <div className='grid grid-cols-3 py-10 gap-5'>
           {skills.map((skill, index) => (
             <Skill key={index} skill={skill} />
           ))}

@@ -1,3 +1,5 @@
+import { Chip } from 'primereact/chip';
+
 export type SkillProps = {
   name: string;
   keywords: string[];
@@ -6,10 +8,12 @@ export type SkillProps = {
 const Skill = ({ skill }: { skill: SkillProps }) => {
   return (
     <div>
-      <h3>{skill.name}</h3>
-      {skill.keywords.map((keyword, index) => (
-        <span key={index}>{keyword}</span>
-      ))}
+      <h3 className='text-2xl'>{skill.name}</h3>
+      <div className='my-2'>
+        {skill.keywords.map((keyword, index) => (
+          <Chip label={keyword} key={index} className='m-1 text-[12px]' />
+        ))}
+      </div>
     </div>
   );
 };

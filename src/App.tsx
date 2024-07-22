@@ -2,7 +2,6 @@ import 'primeicons/primeicons.css';
 import './App.css';
 
 import About from './components/about';
-import Contact from './components/contact';
 import Experience from './components/experience';
 import Footer from './components/footer';
 import Home from './components/home';
@@ -18,7 +17,6 @@ function App() {
         <About />
         <Experience />
         <Skills />
-        <Contact />
         <Footer />
       </div>
     </>
