@@ -4,7 +4,7 @@ import './styles.css';
 
 const Home = () => {
   return (
-    <div id='home' className='py-20 h-[80vh] flex'>
+    <div id='home' className='py-20 flex'>
       <div className='flex flex-col justify-center'>
         <div className='text-2xl text-[var(--primary)]'>
           Hey there! I'm&mdash;
