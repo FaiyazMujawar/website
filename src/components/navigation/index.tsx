@@ -1,14 +1,16 @@
+import './styles.css';
+
 const Navbar = () => {
   return (
-    <div>
-      <div>
-        <a href='#'>Faiyaz Mujawar</a>
+    <div className='navbar py-6 px-20 flex justify-between items-center sticky top-0 shadow-lg'>
+      <div className='name text-[1.25rem]'>
+        <a href='#'>faiyazmujawar</a>
       </div>
-      <div>
+      <div className='links grid grid-cols-5 gap-2 text-center items-center'>
         <a href='#home'>Home</a>
         <a href='#about'>About</a>
-        <a href='#experience'>Experience</a>
-        <a href='#projects'>Projects</a>
+        <a href='#work'>Work</a>
+        <a href='#skills'>Skills</a>
         <a href='#contact'>Contact</a>
       </div>
     </div>

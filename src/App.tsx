@@ -1,3 +1,4 @@
+import 'primeicons/primeicons.css';
 import './App.css';
 
 import About from './components/about';
@@ -10,15 +11,17 @@ import Skills from './components/skills';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <Home />
-      <About />
-      <Experience />
-      <Skills />
-      <Contact />
-      <Footer />
-    </div>
+      <div className='w-4/5 mx-auto'>
+        <Home />
+        <About />
+        <Experience />
+        <Skills />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 }
 
