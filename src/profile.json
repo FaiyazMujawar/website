@@ -1,0 +1,126 @@
+{
+    "basics": {
+        "designation": "Full Stack Engineer",
+        "email": "mujawar.faiyaz.aziz@gmail.com",
+        "phone": "(+91) 8796820910",
+        "location": "Pune, Maharashtra, India",
+        "profiles": {
+            "linkedin": "https://www.linkedin.com/in/faiyaz-mujawar/",
+            "github": "https://github.com/FaiyazMujawar"
+        },
+        "resume": "https://rxresu.me/mujawar.faiyaz.aziz/full-stack",
+        "about": [
+            "Hey there! I'm Faiyaz, a Software Engineer based in Pune, India. I'm interested in application development and I always enjoy learning new things to improve my skills. I'm also fascinated by other computer science fields like Artificial Intelligece.",
+            "Apart from the technical stuff, I'm also interested in Badminton 🏸 and Astronomy 🔭."
+        ]
+    },
+    "experience": [
+        {
+            "company": "T-Systems ICT India Pvt Ltd",
+            "position": "Associate Consultant",
+            "location": "Pune, India",
+            "start": "2021/08/17",
+            "end": null,
+            "summary": [
+                "Engineered REST microservices to enhance system performance and reduce latency",
+                "Developed a library for processing large Excel files and implemented caching for optimized inter-service communication",
+                "Collaborated with a team to ensure code quality, demonstrate features to clients, and resolve system issues",
+                "Utilized Java, Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, MongoDB, and Redis in projects"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Banking Application API",
+            "description": "Developed a functional REST API for a demo banking application, following coding best practices and industry standards",
+            "date": "",
+            "keywords": [
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "Microservices",
+                "PostgreSQL"
+            ],
+            "url": {
+                "label": "Github/banking-demo",
+                "href": "https://github.com/FaiyazMujawar/spring-banking-demo"
+            }
+        },
+        {
+            "name": "Grievance System API",
+            "description": "Designed an anonymous grievance reporting and management approach that reduces 90% manual effort.",
+            "date": "",
+            "keywords": [
+                "Nodejs",
+                "Expressjs",
+                "MongoDB"
+            ],
+            "url": {
+                "label": "Github/issue-tracker",
+                "href": "https://github.com/FaiyazMujawar/issue-tracker/"
+            }
+        },
+        {
+            "name": "ClubSocial",
+            "description": "Created a social media website using Firebase & React, where users can post their ideas as messages, photos, and videos",
+            "date": "",
+            "keywords": [
+                "React.js",
+                "Firebase"
+            ],
+            "url": {
+                "label": "Github/clubsocial",
+                "href": "https://github.com/FaiyazMujawar/ClubSocial"
+            }
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages",
+            "keywords": [
+                "Java",
+                "Javascript",
+                "Typescript",
+                "Golang"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "PostgreSQL",
+                "MongoDB"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "keywords": [
+                "Node.js",
+                "React.js",
+                "Spring Boot",
+                "Spring Data JPA",
+                "JUnit5",
+                "Hibernate",
+                "Spring Security"
+            ]
+        },
+        {
+            "name": "Tools",
+            "keywords": [
+                "Git",
+                "GitHub",
+                "Maven",
+                "GitHub Actions",
+                "Kubernetes",
+                "Redis Cache"
+            ]
+        },
+        {
+            "name": "Miscellaneous",
+            "keywords": [
+                "Microservices",
+                "REST Architecture",
+                "JWT"
+            ]
+        }
+    ]
+}
