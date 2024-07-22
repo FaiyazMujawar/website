@@ -1,5 +1,6 @@
-import { Button } from 'primereact/button';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { basics } from '../../profile.json';
+import IconButton from '../IconButton';
 import './styles.css';
 
 const Home = () => {
@@ -18,30 +19,21 @@ const Home = () => {
             ,&nbsp; based in {basics.location}.
           </span>
         </div>
-        <div className='profiles mt-8'>
-          <Button
-            label='LinkedIn'
-            outlined
-            icon='pi pi-linkedin'
-            className='mr-4 hover:text-[var(--primary)]'
-            severity='secondary'
+        <div className='profiles mt-8 flex'>
+          <IconButton
+            icon={<FaLinkedin size={'20px'} />}
+            text='LinkedIn'
             onClick={() => window.open(basics.profiles.linkedin, '_blank')}
           />
-          <Button
-            label='GitHub'
-            outlined
-            icon='pi pi-github'
-            className='mr-4 hover:text-[var(--primary)]'
-            severity='secondary'
+          <IconButton
+            icon={<FaGithub size={'20px'} />}
+            text='GitHub'
             onClick={() => window.open(basics.profiles.github, '_blank')}
           />
-          <Button
-            label='Email'
-            outlined
-            icon='pi pi-envelope'
-            className='mr-4 hover:text-[var(--primary)]'
-            severity='secondary'
-            onClick={() => window.open(`mailto:${basics.profiles.linkedin}`)}
+          <IconButton
+            icon={<FaEnvelope size={'20px'} />}
+            text='Email'
+            onClick={() => window.open(`mailto:${basics.email}`, '_blank')}
           />
         </div>
       </div>

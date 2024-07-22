@@ -1,4 +1,3 @@
-import 'primeicons/primeicons.css';
 import './App.css';
 
 import About from './components/about';

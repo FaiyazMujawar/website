@@ -1,5 +1,5 @@
-import { Card } from 'primereact/card';
-import { Chip } from 'primereact/chip';
+import { FaLink } from 'react-icons/fa6';
+import Pill from '../Pill';
 
 export type ProjectProps = {
   name: string;
@@ -14,20 +14,23 @@ export type ProjectProps = {
 
 const Project = ({ project }: { project: ProjectProps }) => {
   return (
-    <Card
-      title={project.name}
-      subTitle={project.description}
-      className='bg-gray-800'
-    >
+    <div className='border-[1px] border-[var(--border-color)] p-5 rounded-lg shadow-lg hover:shadow-2xl'>
       <div className='mb-4'>
-        <a href={project.url.href} className='text-[var(--primary)]'>
-          View: {project.url.label}
-        </a>
+        <h3
+          className='text-2xl hover:cursor-pointer hover:text-[var(--primary)] mb-2 flex items-center'
+          onClick={() => window.open(project.url.href, '_blank')}
+        >
+          {project.name}&nbsp;&nbsp;
+          <FaLink />
+        </h3>
+        <p className='mb-2 text-lg text-gray-500'>{project.description}</p>
       </div>
-      {project.keywords.map((keyword, index) => (
-        <Chip key={index} label={keyword} className='mr-2 text-[12px]' />
-      ))}
-    </Card>
+      <div>
+        {project.keywords.map((keyword, index) => (
+          <Pill key={index} label={keyword} />
+        ))}
+      </div>
+    </div>
   );
 };
 

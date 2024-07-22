@@ -1,4 +1,4 @@
-import { Chip } from 'primereact/chip';
+import Pill from '../Pill';
 
 export type SkillProps = {
   name: string;
@@ -11,7 +11,7 @@ const Skill = ({ skill }: { skill: SkillProps }) => {
       <h3 className='text-2xl'>{skill.name}</h3>
       <div className='my-2'>
         {skill.keywords.map((keyword, index) => (
-          <Chip label={keyword} key={index} className='m-1 text-[12px]' />
+          <Pill label={keyword} key={index} />
         ))}
       </div>
     </div>

@@ -1,4 +1,4 @@
-import { Chip } from 'primereact/chip';
+import Pill from '../Pill';
 
 export type CompanyProps = {
   index: number;
@@ -18,7 +18,7 @@ function getFormattedDate(dateString: string) {
 
 const Company = ({ company }: { company: CompanyProps }) => {
   return (
-    <div className='project flex w-full my-20'>
+    <div className='project flex w-full mt-20'>
       <div className='flex flex-col w-1/6 justify-center items-center'>
         <div className='rounded-full bg-gray-800 p-2 h-[50px] w-[50px] flex flex-col justify-center items-center'>
           {company.index}
@@ -28,12 +28,7 @@ const Company = ({ company }: { company: CompanyProps }) => {
         <div className='flex justify-between items-center'>
           <div className='flex items-center mb-2'>
             <span className='text-3xl mr-5'>{company.company}</span>
-            {company.end == null && (
-              <Chip
-                className='text-sm text-[var(--primary)]'
-                label='Currently Working'
-              />
-            )}
+            {company.end == null && <Pill label='Currently Working' />}
           </div>
           <span className='text-gray-400'>
             {getFormattedDate(company.start)} &mdash;&nbsp;
@@ -57,19 +52,3 @@ const Company = ({ company }: { company: CompanyProps }) => {
 };
 
 export default Company;
-
-{
-  /* <div>
-      <h3>{company.company}</h3>
-      <h4>{company.position}</h4>
-      <p>
-        {company.start} - {company.end ?? 'Present'}
-      </p>
-      <p>Work record:</p>
-      <ul>
-        {company.summary.map((summary, index) => (
-          <li key={index}>{summary}</li>
-        ))}
-      </ul>
-    </div> */
-}

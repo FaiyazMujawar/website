@@ -1,5 +1,6 @@
-import { Button } from 'primereact/button';
+import { FaFile } from 'react-icons/fa6';
 import { basics } from '../../profile.json';
+import IconButton from '../IconButton';
 import './style.css';
 
 const About = () => {
@@ -18,12 +19,9 @@ const About = () => {
               </p>
             ))}
           </div>
-          <Button
-            label='VIEW MY RESUME'
-            outlined
-            severity='secondary'
-            icon='pi pi-file'
-            className='mt-4 w-fit hover:text-[var(--primary)]'
+          <IconButton
+            text='VIEW MY RESUME'
+            icon={<FaFile size={'20px'} />}
             onClick={() => window.open(basics.resume, '_blank')}
           />
         </div>
