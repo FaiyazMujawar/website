@@ -1,12 +1,11 @@
 import { experience } from '../../profile.json';
 import Company from './company';
-
 const Experience = () => {
   return (
-    <div>
-      <h1>Where have I worked?</h1>
-      {experience.map((exp, index) => (
-        <Company key={index} company={exp} />
+    <div className='py-20'>
+      <h1 className='text-5xl'>Where have I worked?</h1>
+      {experience.map((company, index) => (
+        <Company key={index + 1} company={{ index: index + 1, ...company }} />
       ))}
     </div>
   );

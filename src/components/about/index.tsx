@@ -4,7 +4,7 @@ import './style.css';
 
 const About = () => {
   return (
-    <div id='about' className='py-[10rem]'>
+    <div id='about' className='py-28'>
       <div className='flex'>
         <div className='profile rounded-[16px] overflow-hidden mr-10'>
           <img src='/me.png' alt='profile.png' />
