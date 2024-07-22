@@ -25,27 +25,10 @@ const Project = ({ project }: { project: ProjectProps }) => {
         </a>
       </div>
       {project.keywords.map((keyword, index) => (
-        <Chip key={index} label={keyword} className='mr-2 text-[15px]' />
+        <Chip key={index} label={keyword} className='mr-2 text-[12px]' />
       ))}
     </Card>
   );
 };
 
 export default Project;
-
-{
-  /* <div className='p-5 border-[1px] border-gray-800 rounded-lg px-10'>
-      <h3
-        className='text-3xl hover:cursor-pointer hover:text-[var(--primary)] mb-2'
-        onClick={() => window.open(project.url.href, '_blank')}
-      >
-        {project.name}
-      </h3>
-      {project.description && (
-        <p className='text-gray-500 mb-4'>{project.description}</p>
-      )}
-      {project.keywords.map((keyword, index) => (
-        <Chip key={index} label={keyword} className='mr-2 text-[12px]' />
-      ))}
-    </div> */
-}

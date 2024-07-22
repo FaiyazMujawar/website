@@ -4,7 +4,7 @@ import Skill from './skill';
 
 const Skills = () => {
   return (
-    <div id='skills py-20'>
+    <div id='skills' className='py-20'>
       <div>
         <h1 className='text-5xl'>Personal work..</h1>
         <div className='grid grid-cols-2 gap-5 py-5'>
@@ -13,7 +13,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      <div className='py-20'>
+      <div className='mt-10'>
         {/* This should be in tabs */}
         <h1 className='text-5xl'>My Skills</h1>
         {/* This should be grid */}

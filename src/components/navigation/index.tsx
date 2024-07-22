@@ -6,12 +6,11 @@ const Navbar = () => {
       <div className='name text-[1.25rem]'>
         <a href='#'>faiyazmujawar</a>
       </div>
-      <div className='links grid grid-cols-5 gap-2 text-center items-center'>
+      <div className='links grid grid-cols-4 gap-2 text-center items-center'>
         <a href='#home'>Home</a>
         <a href='#about'>About</a>
         <a href='#work'>Work</a>
         <a href='#skills'>Skills</a>
-        <a href='#contact'>Contact</a>
       </div>
     </div>
   );

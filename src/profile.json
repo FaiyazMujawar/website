@@ -37,6 +37,7 @@
             "keywords": [
                 "Java",
                 "Spring Boot",
+                "Spring Security",
                 "Microservices",
                 "PostgreSQL"
             ],
@@ -52,7 +53,7 @@
             "keywords": [
                 "Nodejs",
                 "Expressjs",
-                "MongoDb"
+                "MongoDB"
             ],
             "url": {
                 "label": "Github/issue-tracker",
