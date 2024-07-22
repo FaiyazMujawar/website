@@ -14,7 +14,7 @@ const Home = () => {
           Faiyaz <span className='text-[var(--primary)]'>Mujawar</span>
         </div>
         <div className='text-2xl'>
-          <code className='text-red-400'>${`{${basics.designation}}`}</code>
+          <code className='text-red-400'>`${`{${basics.designation}}`}`</code>
           <span className='text-gray-500'>
             ,&nbsp; based in {basics.location}.
           </span>

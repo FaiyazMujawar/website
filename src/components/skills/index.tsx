@@ -13,10 +13,10 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      <div className='mt-10'>
+      <hr className='my-10' />
+      <div>
         {/* This should be in tabs */}
-        <h1 className='text-5xl'>My Skills</h1>
-        {/* This should be grid */}
+        <h1 className='text-5xl'>What skills do I have?</h1>
         <div className='grid grid-cols-3 py-10 gap-5'>
           {skills.map((skill, index) => (
             <Skill key={index} skill={skill} />

@@ -1,4 +1,4 @@
-import { FaFile } from 'react-icons/fa6';
+import { FaFileAlt } from 'react-icons/fa';
 import { basics } from '../../profile.json';
 import IconButton from '../IconButton';
 import './style.css';
@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id='about' className='py-28'>
       <div className='flex'>
-        <div className='profile rounded-[16px] overflow-hidden mr-10'>
+        <div className='profile rounded-[16px] overflow-hidden mr-10 shadow-2xl'>
           <img src='/me.png' alt='profile.png' />
         </div>
         <div className='w-full flex flex-col justify-between'>
@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <IconButton
             text='VIEW MY RESUME'
-            icon={<FaFile size={'20px'} />}
+            icon={<FaFileAlt size={'15px'} />}
             onClick={() => window.open(basics.resume, '_blank')}
           />
         </div>
