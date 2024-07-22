@@ -13,8 +13,11 @@ function App() {
       <Navbar />
       <div className='w-4/5 mx-auto'>
         <Home />
+        <hr />
         <About />
+        <hr />
         <Experience />
+        <hr />
         <Skills />
         <Footer />
       </div>

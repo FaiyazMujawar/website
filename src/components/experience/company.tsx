@@ -18,7 +18,7 @@ function getFormattedDate(dateString: string) {
 
 const Company = ({ company }: { company: CompanyProps }) => {
   return (
-    <div className='project flex w-full mt-20'>
+    <div className='project flex w-full mt-10'>
       <div className='flex flex-col w-1/6 justify-center items-center'>
         <div className='rounded-full bg-gray-800 p-2 h-[50px] w-[50px] flex flex-col justify-center items-center'>
           {company.index}
@@ -28,7 +28,11 @@ const Company = ({ company }: { company: CompanyProps }) => {
         <div className='flex justify-between items-center'>
           <div className='flex items-center mb-2'>
             <span className='text-3xl mr-5'>{company.company}</span>
-            {company.end == null && <Pill label='Currently Working' />}
+            {company.end == null && (
+              <span className='text-[var(--primary)]'>
+                <Pill label='Currently Working' />
+              </span>
+            )}
           </div>
           <span className='text-gray-400'>
             {getFormattedDate(company.start)} &mdash;&nbsp;

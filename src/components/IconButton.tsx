@@ -6,7 +6,7 @@ export type IconButtonProps = {
 
 const IconButton = (props: IconButtonProps) => {
   return (
-    <div className='mr-2 hover:text-[var(--primary)]'>
+    <span className='mr-2 hover:text-[var(--primary)]'>
       <button
         className='py-2 px-3 border-[1px] border-[var(--border-color)] hover:bg-[var(--hover-bg)] rounded-lg flex items-center'
         onClick={props.onClick}
@@ -14,7 +14,7 @@ const IconButton = (props: IconButtonProps) => {
         <span className='mr-2'>{props.icon}</span>
         {props.text}
       </button>
-    </div>
+    </span>
   );
 };
 
