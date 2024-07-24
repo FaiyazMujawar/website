@@ -1,4 +1,29 @@
 body {
-    background-color: var(--background);
-    color: white;
+  background-color: var(--background);
+  color: white;
+  font-size: 1rem;
+}
+
+.heading1 {
+  font-size: clamp(3rem, 7vw, 7rem);
+  line-height: normal;
+}
+
+.heading2 {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  line-height: 2rem;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

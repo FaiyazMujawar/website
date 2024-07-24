@@ -1,5 +1,3 @@
-import Pill from '../Pill';
-
 export type CompanyProps = {
   index: number;
   company: string;
@@ -16,35 +14,46 @@ function getFormattedDate(dateString: string) {
   return `${month}, ${year}`;
 }
 
+function getWorkDuration(startDate: string, endDate: string | null) {
+  const start = getFormattedDate(startDate);
+  const end = endDate == null ? 'Present' : getFormattedDate(endDate);
+  return (
+    <span className='italic text-gray-500 text-sm sm0:max-sm:block'>
+      {start} &mdash; {end}
+    </span>
+  );
+}
+
 const Company = ({ company }: { company: CompanyProps }) => {
   return (
     <div className='project flex w-full mt-10'>
-      <div className='flex flex-col w-1/6 justify-center items-center'>
-        <div className='rounded-full bg-gray-800 p-2 h-[50px] w-[50px] flex flex-col justify-center items-center'>
+      {/* Index */}
+      <div className='sm0:max-sm:hidden w-1/6 center flex-col'>
+        <div className='rounded-full bg-gray-800 p-2 h-[50px] w-[50px] center flex-col'>
           {company.index}
         </div>
       </div>
-      <div className='border-[1px] border-gray-800 p-5 rounded-md w-full py-10 px-6'>
+      {/* Details */}
+      <div className='border-[1px] border-[var(--border-color)] rounded-md w-full py-5'>
         <div className='flex justify-between items-center'>
-          <div className='flex items-center mb-2'>
-            <span className='text-3xl mr-5'>{company.company}</span>
-            {company.end == null && (
-              <span className='text-[var(--primary)]'>
-                <Pill label='Currently Working' />
-              </span>
-            )}
-          </div>
-          <span className='text-gray-400'>
-            {getFormattedDate(company.start)} &mdash;&nbsp;
-            {company.end != null ? getFormattedDate(company.end) : 'Present'}
-          </span>
+          <span className='text-3xl ml-6'>{company.company}</span>
+          {company.end == null && (
+            <span className='bg-[var(--primary)] text-white py-1 px-2 rounded-sm text-sm mr-[-5px] mt-[-10px] text-center]'>
+              Present
+            </span>
+          )}
         </div>
-        <h2 className='text-xl text-gray-400 mb-2'>{company.position}</h2>
-        <p className='text-lg mb-2'>Key Responsibilities</p>
-        <div>
-          <ul style={{ listStyleType: 'circle', listStylePosition: 'inside' }}>
+        <div className='border-t-[1px] border-b-[1px] py-2 my-2 border-[var(--border-color)] px-6'>
+          <span className='text-lg text-gray-300 mb-2 mr-2'>
+            {company.position}
+          </span>
+          {getWorkDuration(company.start, company.end)}
+        </div>
+
+        <div className='px-6'>
+          <ul className='px-4'>
             {company.summary.map((summary, index) => (
-              <li className='list-item text-lg' key={index}>
+              <li className='list-item list-disc text-base' key={index}>
                 {summary}
               </li>
             ))}
