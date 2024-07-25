@@ -5,16 +5,16 @@ import './style.css';
 
 const About = () => {
   return (
-    <div id='about' className='py-28'>
-      <div className='flex'>
-        <div className='profile rounded-[16px] overflow-hidden mr-10 shadow-2xl'>
-          <img src='/me.png' alt='profile.png' />
+    <div id='about' className='py-20 sm0:max-sm:py-10'>
+      <div className='md:flex'>
+        <div className='profile center rounded-[16px] overflow-hidden shadow-2xl md:mr-10 sm0:max-sm:w-full'>
+          <img className='rounded-[16px]' src='/me.png' alt='profile.png' />
         </div>
-        <div className='w-full flex flex-col justify-between'>
-          <div className='text-5xl'>Who am I?</div>
+        <div className='w-full md:flex flex-col justify-between sm0:max-sm:mt-4'>
+          <div className='title'>Who am I?</div>
           <div>
             {basics.about.map((about, index) => (
-              <p className='text-xl py-2' key={index}>
+              <p className='text-lg py-2' key={index}>
                 {about}
               </p>
             ))}

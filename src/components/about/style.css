@@ -1,8 +1,8 @@
 .profile {
   --image-width: 20rem;
 
-  max-width: var(--image-width);
+  /* max-width: var(--image-width); */
   width: var(--image-width);
-  /* height: 30rem; */
+  height: auto;
   border-radius: 16px;
 }

@@ -9,19 +9,16 @@ import Skills from './components/skills';
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
-      <div className='w-4/5 mx-auto'>
+      <div className='sm0:max-sm:w-[90%] w-[70%] mx-auto'>
         <Home />
-        <hr />
         <About />
-        <hr />
         <Experience />
-        <hr />
         <Skills />
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 
