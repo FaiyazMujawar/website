@@ -28,7 +28,7 @@ const Company = ({ company }: { company: CompanyProps }) => {
   return (
     <div className='project flex w-full mt-10'>
       {/* Index */}
-      <div className='sm0:max-sm:hidden w-1/6 center flex-col'>
+      <div className='sm0:max-lg:hidden w-1/6 center flex-col'>
         <div className='rounded-full bg-gray-800 p-2 h-[50px] w-[50px] center flex-col'>
           {company.index}
         </div>
