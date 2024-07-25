@@ -8,7 +8,7 @@ export type SkillProps = {
 const Skill = ({ skill }: { skill: SkillProps }) => {
   return (
     <div>
-      <h3 className='text-2xl'>{skill.name}</h3>
+      <h3 className='text-2xl mb-2'>{skill.name}</h3>
       <div className='my-2'>
         {skill.keywords.map((keyword, index) => (
           <Pill label={keyword} key={index} />

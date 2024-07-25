@@ -5,7 +5,9 @@ body {
 }
 
 .heading1 {
+  font-family: 'Rubik', sans-serif;
   font-size: clamp(3rem, 7vw, 7rem);
+  font-weight: 800;
   line-height: normal;
 }
 
@@ -16,6 +18,7 @@ body {
 
 .title {
   font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: bold;
 }
 
 .text {

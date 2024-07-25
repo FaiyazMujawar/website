@@ -19,11 +19,13 @@ const About = () => {
               </p>
             ))}
           </div>
-          <IconButton
-            text='VIEW MY RESUME'
-            icon={<FaFileAlt size={'15px'} />}
-            onClick={() => window.open(basics.resume, '_blank')}
-          />
+          <div className='mt-4'>
+            <IconButton
+              text='VIEW MY RESUME'
+              icon={<FaFileAlt size={'15px'} />}
+              onClick={() => window.open(basics.resume, '_blank')}
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ function getWorkDuration(startDate: string, endDate: string | null) {
   const start = getFormattedDate(startDate);
   const end = endDate == null ? 'Present' : getFormattedDate(endDate);
   return (
-    <span className='italic text-gray-500 text-sm sm0:max-sm:block'>
+    <span className='text-gray-500 text-sm sm0:max-sm:block'>
       {start} &mdash; {end}
     </span>
   );
@@ -50,10 +50,10 @@ const Company = ({ company }: { company: CompanyProps }) => {
           {getWorkDuration(company.start, company.end)}
         </div>
 
-        <div className='px-6'>
+        <div className='px-6 mt-4'>
           <ul className='px-4'>
             {company.summary.map((summary, index) => (
-              <li className='list-item list-disc text-base' key={index}>
+              <li className='list-item list-disc mb-2' key={index}>
                 {summary}
               </li>
             ))}

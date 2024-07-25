@@ -4,7 +4,7 @@ import './styles.css';
 const Navbar = () => {
   return (
     <div className='navbar sticky top-0 shadow-lg w-full'>
-      <div className='sm0:max-sm:w-[90%] py-6 w-[70%] mx-auto flex justify-between items-center '>
+      <div className='sm0:max-sm:w-[90%] sm0:max-sm:py-2 py-6 w-[70%] mx-auto flex justify-between items-center '>
         <div className='sm0:max-sm:text-[1.5rem] text-[2rem] font-extrabold'>
           <a href='#'>
             <code style={{ fontFamily: "'IBM Plex Mono', monospace" }}>

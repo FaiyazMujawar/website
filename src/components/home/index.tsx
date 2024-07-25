@@ -11,7 +11,7 @@ const Home = () => {
           Hey there! I'm&mdash;
         </div>
         <div className='heading1 font-bold text-wrap sm0:max-sm:mb-4'>
-          Faiyaz <span className='text-[var(--primary)]'>Mujawar</span>
+          Faiyaz <span className='heading1 text-[var(--primary)]'>Mujawar</span>
         </div>
         <div className='heading2'>
           <code className='text-red-400'>`${`{${basics.designation}}`}`</code>
