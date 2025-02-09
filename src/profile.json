@@ -1,129 +1,115 @@
 {
-    "basics": {
-        "designation": "Full Stack Engineer",
-        "email": "mujawar.faiyaz.aziz@gmail.com",
-        "phone": "(+91) 8796820910",
-        "location": "Pune, Maharashtra, India",
-        "profiles": {
-            "linkedin": "https://www.linkedin.com/in/faiyaz-mujawar/",
-            "github": "https://github.com/FaiyazMujawar"
-        },
-        "resume": "https://rxresu.me/mujawar.faiyaz.aziz/full-stack",
-        "about": [
-            "Hey there! I'm Faiyaz, a Software Engineer based in Pune, India. I'm interested in application development and I always enjoy learning new things to improve my skills. I'm also fascinated by other computer science fields like Artificial Intelligece.",
-            "Apart from the technical stuff, I'm also interested in Badminton 🏸 and Astronomy 🔭."
-        ]
+  "basics": {
+    "designation": "Full Stack Engineer",
+    "email": "mujawar.faiyaz.aziz@gmail.com",
+    "phone": "(+91) 8796820910",
+    "location": "Pune, Maharashtra, India",
+    "profiles": {
+      "linkedin": "https://www.linkedin.com/in/faiyaz-mujawar/",
+      "github": "https://github.com/FaiyazMujawar"
     },
-    "experience": [
-        {
-            "company": "T-Systems ICT India Pvt Ltd",
-            "position": "Associate Consultant",
-            "location": "Pune, India",
-            "start": "2021/08/17",
-            "end": null,
-            "summary": [
-                "Engineered REST microservices to enhance system performance and reduce latency",
-                "Developed a library for processing large Excel files and implemented caching for optimized inter-service communication",
-                "Collaborated with a team to ensure code quality, demonstrate features to clients, and resolve system issues",
-                "Utilized Java, Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, MongoDB, and Redis in projects"
-            ]
-        }
-    ],
-    "projects": [
-        {
-            "name": "Banking Application API",
-            "description": "Developed a functional REST API for a demo banking application, following coding best practices and industry standards",
-            "date": "",
-            "img": "https://img.freepik.com/free-vector/mobile-banking-concept-illustration_114360-13928.jpg?w=740&t=st=1677131063~exp=1677131663~hmac=f776d9ae49f2981c535da4e3618c2b336bdcf3efa8221b54426f00634343b28a",
-            "keywords": [
-                "Java",
-                "Spring Boot",
-                "Spring Security",
-                "Microservices",
-                "PostgreSQL"
-            ],
-            "url": {
-                "label": "Github/banking-demo",
-                "href": "https://github.com/FaiyazMujawar/spring-banking-demo"
-            }
-        },
-        {
-            "name": "Grievance System API",
-            "description": "Designed an anonymous grievance reporting and management approach that reduces 90% manual effort.",
-            "date": "",
-            "keywords": [
-                "Nodejs",
-                "Expressjs",
-                "MongoDB"
-            ],
-            "img": "https://img.freepik.com/free-vector/flat-design-person-making-complain_23-2148958465.jpg?w=740&t=st=1677131652~exp=1677132252~hmac=9fcb5421ea2eb688e68c937f108c74201ed2e0faea39b774147895b1bfde0964",
-            "url": {
-                "label": "Github/issue-tracker",
-                "href": "https://github.com/FaiyazMujawar/issue-tracker/"
-            }
-        },
-        {
-            "name": "ClubSocial",
-            "description": "Created a social media website using Firebase & React, where users can post their ideas as messages, photos, and videos",
-            "date": "",
-            "keywords": [
-                "React.js",
-                "Firebase"
-            ],
-            "img": "https://img.freepik.com/free-vector/connected-world-concept-illustration_114360-3027.jpg?w=740&t=st=1677131778~exp=1677132378~hmac=37a929aafbdf2962df75ea755636560aa82abb099ff9df3e35859d44d4116e37",
-            "url": {
-                "label": "Github/clubsocial",
-                "href": "https://github.com/FaiyazMujawar/ClubSocial"
-            }
-        }
-    ],
-    "skills": [
-        {
-            "name": "Languages",
-            "keywords": [
-                "Java",
-                "Javascript",
-                "Typescript",
-                "Golang"
-            ]
-        },
-        {
-            "name": "Databases",
-            "keywords": [
-                "PostgreSQL",
-                "MongoDB"
-            ]
-        },
-        {
-            "name": "Frameworks",
-            "keywords": [
-                "Node.js",
-                "React.js",
-                "Spring Boot",
-                "Spring Data JPA",
-                "JUnit5",
-                "Hibernate",
-                "Spring Security"
-            ]
-        },
-        {
-            "name": "Tools",
-            "keywords": [
-                "Git",
-                "GitHub",
-                "Maven",
-                "GitHub Actions",
-                "Kubernetes",
-                "Redis Cache"
-            ]
-        },
-        {
-            "name": "Miscellaneous",
-            "keywords": [
-                "Microservices",
-                "REST Architecture",
-                "JWT"
-            ]
-        }
+    "resume": "https://rxresu.me/mujawar.faiyaz.aziz/full-stack",
+    "about": [
+      "Hey there! I'm Faiyaz, a Software Engineer based in Pune, India. I'm interested in application development and I always enjoy learning new things to improve my skills. I'm also fascinated by other computer science fields like Artificial Intelligece.",
+      "Apart from the technical stuff, I'm also interested in Badminton 🏸 and Astronomy 🔭."
     ]
+  },
+  "experience": [
+    {
+      "company": "Rheumera",
+      "position": "Software Engineer",
+      "location": "Pune, India (WFH)",
+      "start": "2024/09/03",
+      "end": null,
+      "summary": [
+        "Worked in development of multiple REST services",
+        "Built code-gen tool to generate SQL from Excel for easy maintenance of data",
+        "Utilized Java, Spring Boot, MySQL, AWS in projects"
+      ]
+    },
+    {
+      "company": "T-Systems ICT India Pvt Ltd",
+      "position": "Associate Consultant",
+      "location": "Pune, India",
+      "start": "2021/08/17",
+      "end": "2024/08/26",
+      "summary": [
+        "Engineered REST microservices to enhance system performance and reduce latency",
+        "Developed a library for processing large Excel files and implemented caching for optimized inter-service communication",
+        "Collaborated with a team to ensure code quality, demonstrate features to clients, and resolve system issues",
+        "Utilized Java, Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, MongoDB, and Redis in projects"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Banking Application API",
+      "description": "Developed a functional REST API for a demo banking application, following coding best practices and industry standards",
+      "date": "",
+      "img": "https://img.freepik.com/free-vector/mobile-banking-concept-illustration_114360-13928.jpg?w=740&t=st=1677131063~exp=1677131663~hmac=f776d9ae49f2981c535da4e3618c2b336bdcf3efa8221b54426f00634343b28a",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "Microservices",
+        "PostgreSQL"
+      ],
+      "url": {
+        "label": "Github/banking-demo",
+        "href": "https://github.com/FaiyazMujawar/spring-banking-demo"
+      }
+    },
+    {
+      "name": "Grievance System API",
+      "description": "Designed an anonymous grievance reporting and management approach that reduces 90% manual effort.",
+      "date": "",
+      "keywords": ["Nodejs", "Expressjs", "MongoDB"],
+      "img": "https://img.freepik.com/free-vector/flat-design-person-making-complain_23-2148958465.jpg?w=740&t=st=1677131652~exp=1677132252~hmac=9fcb5421ea2eb688e68c937f108c74201ed2e0faea39b774147895b1bfde0964",
+      "url": {
+        "label": "Github/issue-tracker",
+        "href": "https://github.com/FaiyazMujawar/issue-tracker/"
+      }
+    },
+    {
+      "name": "ClubSocial",
+      "description": "Created a social media website using Firebase & React, where users can post their ideas as messages, photos, and videos",
+      "date": "",
+      "keywords": ["React.js", "Firebase"],
+      "img": "https://img.freepik.com/free-vector/connected-world-concept-illustration_114360-3027.jpg?w=740&t=st=1677131778~exp=1677132378~hmac=37a929aafbdf2962df75ea755636560aa82abb099ff9df3e35859d44d4116e37",
+      "url": {
+        "label": "Github/clubsocial",
+        "href": "https://github.com/FaiyazMujawar/ClubSocial"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Java", "Javascript", "Typescript", "Golang"]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["PostgreSQL", "MongoDB", "MySQL"]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "Node.js",
+        "React.js",
+        "Spring Boot",
+        "Spring Data JPA",
+        "JUnit5",
+        "Hibernate",
+        "Spring Security"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Git", "GitHub", "Maven", "Kubernetes", "Redis Cache"]
+    },
+    {
+      "name": "Miscellaneous",
+      "keywords": ["Microservices", "REST Architecture", "JWT"]
+    }
+  ]
 }
