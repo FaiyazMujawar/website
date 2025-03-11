@@ -18,13 +18,14 @@
     {
       "company": "Rheumera",
       "position": "Software Engineer",
-      "location": "Pune, India (WFH)",
+      "location": "Pune, India (Remote)",
       "start": "2024/09/03",
       "end": null,
       "summary": [
-        "Worked in development of multiple REST services",
+        "Working as a Java backend engineer developing backend systems for Rheumatology healthcare service.",
         "Built code-gen tool to generate SQL from Excel for easy maintenance of data",
-        "Utilized Java, Spring Boot, MySQL, AWS in projects"
+        "Optimized backend performance and refined code architecture",
+        "Utilized Java, Spring Boot, MySQL, AWS"
       ]
     },
     {
@@ -35,8 +36,8 @@
       "end": "2024/08/26",
       "summary": [
         "Engineered REST microservices to enhance system performance and reduce latency",
-        "Developed a library for processing large Excel files and implemented caching for optimized inter-service communication",
-        "Collaborated with a team to ensure code quality, demonstrate features to clients, and resolve system issues",
+        "Developed library for processing large Excel files and implemented caching for optimized inter-service communication",
+        "Collaborated with team to ensure code quality, demonstrate features to clients, and resolve system issues",
         "Utilized Java, Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, MongoDB, and Redis in projects"
       ]
     }
@@ -63,7 +64,11 @@
       "name": "Grievance System API",
       "description": "Designed an anonymous grievance reporting and management approach that reduces 90% manual effort.",
       "date": "",
-      "keywords": ["Nodejs", "Expressjs", "MongoDB"],
+      "keywords": [
+        "Nodejs",
+        "Expressjs",
+        "MongoDB"
+      ],
       "img": "https://img.freepik.com/free-vector/flat-design-person-making-complain_23-2148958465.jpg?w=740&t=st=1677131652~exp=1677132252~hmac=9fcb5421ea2eb688e68c937f108c74201ed2e0faea39b774147895b1bfde0964",
       "url": {
         "label": "Github/issue-tracker",
@@ -74,7 +79,10 @@
       "name": "ClubSocial",
       "description": "Created a social media website using Firebase & React, where users can post their ideas as messages, photos, and videos",
       "date": "",
-      "keywords": ["React.js", "Firebase"],
+      "keywords": [
+        "React.js",
+        "Firebase"
+      ],
       "img": "https://img.freepik.com/free-vector/connected-world-concept-illustration_114360-3027.jpg?w=740&t=st=1677131778~exp=1677132378~hmac=37a929aafbdf2962df75ea755636560aa82abb099ff9df3e35859d44d4116e37",
       "url": {
         "label": "Github/clubsocial",
@@ -85,11 +93,20 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": ["Java", "Javascript", "Typescript", "Golang"]
+      "keywords": [
+        "Java",
+        "Javascript",
+        "Typescript",
+        "Golang"
+      ]
     },
     {
       "name": "Databases",
-      "keywords": ["PostgreSQL", "MongoDB", "MySQL"]
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL"
+      ]
     },
     {
       "name": "Frameworks",
@@ -105,11 +122,21 @@
     },
     {
       "name": "Tools",
-      "keywords": ["Git", "GitHub", "Maven", "Kubernetes", "Redis Cache"]
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Maven",
+        "Kubernetes",
+        "Redis Cache"
+      ]
     },
     {
       "name": "Miscellaneous",
-      "keywords": ["Microservices", "REST Architecture", "JWT"]
+      "keywords": [
+        "Microservices",
+        "REST Architecture",
+        "JWT"
+      ]
     }
   ]
 }
